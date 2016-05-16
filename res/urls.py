@@ -8,4 +8,4 @@ urlpatterns = [
  	url(r'^$', Resume.as_view(), name='login'),
  	url(r'^download/$', Download.as_view(), name='dashboard'),
 
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+] 
