@@ -7,16 +7,12 @@ from django.http import HttpResponse
 from django.views.generic import View
 from django.http import HttpResponseRedirect
 from django.core.urlresolvers import reverse
-import pdfkit
+
 from django.http import HttpResponse
 from django.template.loader import render_to_string
 from django.template import RequestContext
 from django.conf import settings
-import ho.pisa as pisa
-import cStringIO as StringIO
-import cgi
-import os
-from markdown import markdown
+
 from django.conf import settings
 
 class Resume(View):
