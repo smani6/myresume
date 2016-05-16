@@ -1,0 +1,8 @@
+psycopg2==2.5.4
+dj-database-url==0.4.1
+Django==1.8.6
+Flask==0.10.1
+gunicorn==19.5.0
+uWSGI==2.0.13.1
+whitenoise==3.1
+
